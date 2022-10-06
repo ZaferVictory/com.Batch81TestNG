@@ -1,0 +1,33 @@
+<!--
+xml dosyasında belirli metodları gruplayıp calıstırmak ıstersek
+oncelikle gruplandırmak ıstedıgımız methodları belirtmemız gerekır.
+@test notasyonundan sonra parantez acıp grup ismi belirrtmemız gerekıyor.
+.xml dosyasında test tagından sonra groups tag'ı altında run tag'ı ıcıne gruplandırdıgımız metodların
+grup ısmını belırtmemız gerekıyor. ve son olarak grupladıgımız metodların hangı package altında oldugunu belirtmemız
+gerekır.
+
+-->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="istenen gruplari calistirma">
+    <test name="belirli gruplar">
+    <groups>
+        <run>
+            <include name="gp1"/>
+        </run>
+    </groups>
+        <packages>
+            <package name="tests.day16_BeforeMetodAfterMetod_Priority_DependOfMetod"></package>
+            <package name="tests.day17"></package>
+        </packages>
+    </test>
+    <test name="belirli gruplar 2">
+        <groups>
+            <run>
+                <exclude name="gp2"/><!-- gp2 olarak isimlendirdiğimiz dışındaki tüm methodlar çalışır  -->
+            </run>
+        </groups>
+        <packages>
+            <package name="tests.day18"></package>
+        </packages>
+    </test>
+</suite>
