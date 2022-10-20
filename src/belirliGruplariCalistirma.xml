@@ -17,7 +17,7 @@ gerekır.
     </groups>
         <packages>
             <package name="tests.day16_BeforeMetodAfterMetod_Priority_DependOfMetod"></package>
-            <package name="tests.day17"></package>
+            <package name="tests.day17_DependsOnmetod_HardAssert_SoftAssert"></package>
         </packages>
     </test>
     <test name="belirli gruplar 2">
@@ -27,7 +27,7 @@ gerekır.
             </run>
         </groups>
         <packages>
-            <package name="tests.day18"></package>
+            <package name="tests.day18_PageClass_ConfigrationProperties_Configreader"></package>
         </packages>
     </test>
 </suite>

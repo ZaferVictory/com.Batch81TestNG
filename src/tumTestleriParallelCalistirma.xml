@@ -2,7 +2,7 @@
 <suite name="allTest" verbose="3" parallel="classes" thread-count="3">
     <test name="regression">
         <packages>
-            <package name="tests.day17"/>
+            <package name="tests.day17_DependsOnmetod_HardAssert_SoftAssert"/>
         </packages>
     </test>
 </suite>

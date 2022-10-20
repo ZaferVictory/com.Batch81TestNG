@@ -14,7 +14,7 @@ ona göre .xml formatını yazmamız gerekir.
     <test name="classlar">
         <classes>
             <class name="tests.day16_BeforeMetodAfterMetod_Priority_DependOfMetod.C03_Priority"/>
-            <class name="tests.day17.C03_SoftAssert"/>
+            <class name="tests.day17_DependsOnmetod_HardAssert_SoftAssert.C03_SoftAssert"/>
         </classes>
     </test>
 </suite>

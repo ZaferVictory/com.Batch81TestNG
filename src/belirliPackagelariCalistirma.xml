@@ -2,12 +2,12 @@
 <suite name="istenen packageleri calistirma">
     <test name="package">
         <packages>
-            <package name="tests.day18"/>
+            <package name="tests.day18_PageClass_ConfigrationProperties_Configreader"/>
         </packages>
     </test>
     <test name="baska Test">
         <classes>
-            <class name="tests.day19.C03_PozitifTest"></class>
+            <class name="tests.day19_SingletonPattern_NegativeTest_PozitifTest.C03_PozitifTest"></class>
         </classes>
     </test>
 </suite>
